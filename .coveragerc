@@ -1,0 +1,16 @@
+[paths]
+source =
+   src/pylibrary_test
+   */site-packages/pylibrary_test
+
+[run]
+branch = true
+source =
+    pylibrary_test
+    tests
+parallel = true
+
+[report]
+show_missing = true
+precision = 2
+omit = *migrations*
